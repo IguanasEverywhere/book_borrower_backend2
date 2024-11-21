@@ -32,7 +32,7 @@ SessionDep = Annotated[Session, Depends(get_session)]
 
 @app.get("/")
 async def root():
-    return {"message": "Hello From the Backend"}
+    return {"message": "Hello From the Backend!!!"}
 
 @app.get("/test")
 def get_test():
